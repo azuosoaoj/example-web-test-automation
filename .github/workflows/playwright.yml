@@ -54,4 +54,4 @@ jobs:
 
       - name: Acess the Report URL
         run: |
-          echo "Report URL: https://azuosoaoj.github.io/example-automation-api/$GITHUB_RUN_NUMBER"
+          echo "Report URL: https://azuosoaoj.github.io/example-web-test-automation/$GITHUB_RUN_NUMBER"
