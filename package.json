@@ -1,0 +1,16 @@
+{
+  "name": "example-web-test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "allure-playwright": "^3.1.0",
+    "@types/node": "^22.13.0"
+  }
+}
