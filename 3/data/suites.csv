@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Feb 01 18:28:49 GMT 2025","Sat Feb 01 18:28:51 GMT 2025","1889","chromium","search.spec.js","","","","Given that I am on the homepage, when I search for ""NonExistentItem"" and press Enter, then I should see no results @noResults","Verify that no results are found for a non-existent item"
+"passed","Sat Feb 01 18:28:46 GMT 2025","Sat Feb 01 18:28:49 GMT 2025","3064","chromium","search.spec.js","","","","Given that I am on the homepage, when I search for ""Drex"" and press Enter, then I should see the results related to ""Drex"" @searchResults","Verify that search results for Drex are displayed correctly"
