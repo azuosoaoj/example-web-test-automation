@@ -24,6 +24,9 @@ jobs:
         run: |
           npx playwright install-deps
 
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
       - name: Install Allure commandline (to generate reports)
         run: |
           wget https://github.com/allure-framework/allure2/releases/download/2.18.1/allure-2.18.1.tgz
