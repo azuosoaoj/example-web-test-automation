@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import allure from 'allure-playwright';
+import { allure } from "allure-playwright"
 import { HomePage } from '../support/pages/home/homePage'
 import { SearchPage } from '../support/pages/search/searchPage'
 
@@ -29,10 +29,10 @@ test('Given that I am on the homepage, when I search for "NonExistentItem" and p
     let search = new SearchPage(page)
 
     allure.description('Verify that no results are found for a non-existent item');
-    allure.label('searchTerm', 'NonExistentItem');
+    allure.label('searchTerm', 'No results found');
 
     await home.go()
-    await home.searchItem('NonExistentItem')
+    await home.searchItem('No results found')
     await search.verifyNoResults('No results found')
   } catch (e) {
     console.error(e);

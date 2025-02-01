@@ -7,7 +7,7 @@ export class SearchElements {
       return this.page.locator('h1.page-title.ast-archive-title');
     }
 
-    acticles() {
+    articles() {
       return this.page.locator('.ast-row article')
     }
     
